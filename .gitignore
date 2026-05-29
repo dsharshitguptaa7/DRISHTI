@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+backend/venv/
+
+# Model Weights
+*.pt
+
+# Uploads
+uploads/
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
