@@ -1,8 +1,8 @@
 from brain import process_command
-
+from voice_input import listen
 while True:
 
-    user = input("You: ")
+    user = listen()
 
     if user.lower() == "exit":
         break

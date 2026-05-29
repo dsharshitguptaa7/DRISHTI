@@ -1,7 +1,7 @@
 import cv2
 import time
 
-from detector import detect_objects, summarize_objects
+from backend.models.detector import detect_objects, summarize_objects
 from speech import speak
 
 cap = cv2.VideoCapture(0)
